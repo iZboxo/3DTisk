@@ -2,7 +2,7 @@
 
 echo Jdu na to!
 git add . && git commit -m 'update' && git push
-delay 5
+timeout 5
 echo Updatuji!
 git add . && git commit -m 'update' && git push
 
